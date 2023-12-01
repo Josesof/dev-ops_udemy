@@ -25,6 +25,7 @@ public class Invoice {
   @GeneratedValue(strategy= GenerationType.AUTO)
    private long id;
    private long customerId;
+   private String flat;
    private String number;
    private String detail;
    private double amount;  
