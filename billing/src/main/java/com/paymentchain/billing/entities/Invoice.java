@@ -26,6 +26,7 @@ public class Invoice {
    private long id;
    private long customerId;
    private String flat;
+  private String flat2;
    private String number;
    private String detail;
    private double amount;  
